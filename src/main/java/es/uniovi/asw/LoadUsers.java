@@ -11,7 +11,7 @@ import java.util.logging.Logger;
 public class LoadUsers {
 
 	public static void main(String... args) {
-		LoadUsers runner = new LoadUsers();
+		final LoadUsers runner = new LoadUsers();
 		runner.run(args);
 	}
 
